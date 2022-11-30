@@ -1,0 +1,67 @@
+body {
+  /*background: url("images/Marseille_Vieux_Port_Night.jpg") no-repeat center center fixed;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin:0px;
+  font-family:Arial;
+}
+
+h1{
+/*background-color: #DD7835;*/
+color:black;
+/*display:inline;*/
+font-size:35px;
+text-align: center
+}
+
+.listing_date{margin-left: 35px;color:black;}
+.listing_nom{margin-left: 35px;color:black;text-align: center}
+.listing_prenom{margin-left: 50px;color:black;text-align: center}
+.listing_note{margin-left: 50px;color:black;}
+.listing_avis{margin-left: 40px;color:black;}
+
+.form{
+margin-left: 60px;
+color:white;
+text-align: left;
+}
+
+#listing_personne {margin-left: 35px;color:white;}
+
+.row{
+display: flex;
+flex-wrap: wrap;
+margin-right: 15px;
+margin-left: 15px;
+}
+.col-6{
+position: relative;
+width: 100%;
+padding-right: 15px;
+padding-left: 15px;
+
+}
+
+.rating-list li {
+float: right;
+color: #ddd;
+padding: 10px 5px;
+}
+
+.rating-list li:hover,.rating-list li:hover ~ li {
+color: orange;
+}
+
+.rating-list {
+display: inline-block;
+list-style: none;
+}
+.checked {
+color: orange;
+}
+
+.star2{
+font-size:2em
+}
